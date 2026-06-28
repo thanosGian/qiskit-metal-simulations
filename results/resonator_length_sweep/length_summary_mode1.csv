@@ -1,0 +1,9 @@
+,target_GHz,L_opt_mm,in_range,monotonic
+Readout1,6.8,8.35,True,True
+Readout2,7.0,8.102,True,True
+Readout3,7.2,7.883,True,True
+Readout4,7.4,7.663,True,True
+cpw1,5.8,10.233,True,True
+cpw2,6.2,9.135,True,True
+cpw3,6.4,8.784,True,True
+cpw4,6.0,9.655,True,True

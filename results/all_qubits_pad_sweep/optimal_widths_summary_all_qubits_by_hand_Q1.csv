@@ -1,0 +1,13 @@
+qubit,pad,target,optimal_width_um
+Q1,readout,|chi|=1MHz,185
+Q1,bus_12,|g|=80MHz,200
+Q1,bus_14,|g|=80MHz,150
+Q2,readout,|chi|=1MHz,173.7
+Q2,bus_12,|g|=80MHz,162.0
+Q2,bus_23,|g|=80MHz,164.5
+Q3,readout,|chi|=1MHz,163.9
+Q3,bus_23,|g|=80MHz,145.1
+Q3,bus_34,|g|=80MHz,154.3
+Q4,readout,|chi|=1MHz,154.8
+Q4,bus_14,|g|=80MHz,163.6
+Q4,bus_34,|g|=80MHz,135.7
