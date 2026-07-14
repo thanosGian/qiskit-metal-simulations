@@ -1,9 +1,9 @@
 ,target_GHz,L_opt_mm,in_range,all_converged
-Readout1,6.8,8.35,True,False
-Readout2,7.0,7.967,True,False
-Readout3,7.2,7.883,True,False
-Readout4,7.4,7.663,True,False
-cpw1,5.8,10.029,True,False
-cpw2,6.2,9.126,True,False
-cpw3,6.4,8.784,True,False
-cpw4,6.0,9.513,True,False
+Readout1,6.8,7.915,True,True
+Readout2,7.0,7.915,True,True
+Readout3,7.2,7.33,True,True
+Readout4,7.4,7.35,True,True
+cpw1,5.8, 9.69,True,True
+cpw2,6.2,9.071,True,True
+cpw3,6.4,8.657,True,True
+cpw4,6.0,9.381,True,True
