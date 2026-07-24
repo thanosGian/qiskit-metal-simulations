@@ -1,0 +1,225 @@
+
+########## Q3 -> 5.2 GHz ##########
+INFO 08:44PM [connect_design]: 	Opened active design
+	Design:    Q3_final_hfss [Solution type: Eigenmode]
+WARNING 08:44PM [connect_setup]: 	No design setup detected.
+WARNING 08:44PM [connect_setup]: 	Creating eigenmode default setup.
+INFO 08:44PM [get_setup]: 	Opened setup `Setup`  (<class 'pyEPR.ansys.HfssEMSetup'>)
+INFO 08:44PM [get_setup]: 	Opened setup `Setup`  (<class 'pyEPR.ansys.HfssEMSetup'>)
+INFO 08:44PM [analyze]: Analyzing setup Setup
+09:42PM 58s INFO [get_f_convergence]: Saved convergences to c:\Users\giann\Projects\quantum-metal\qiskit-metal-simulations\hfss_eig_f_convergence.csv
+Design "Q3_final_hfss" info:
+	# eigenmodes    5
+	# variations    1
+Design "Q3_final_hfss" info:
+	# eigenmodes    5
+	# variations    1
+
+        energy_elec_all       = 2.26336104871009e-23
+        energy_elec_substrate = 2.07315655006713e-23
+        EPR of substrate = 91.6%
+
+        energy_mag    = 2.26332766436124e-23
+        energy_mag % of energy_elec_all  = 100.0%
+        
+
+Variation 0  [1/1]
+
+  Mode 0 at 3.79 GHz   [1/5]
+    Calculating ℰ_magnetic,ℰ_electric
+       (ℰ_E-ℰ_H)/ℰ_E       ℰ_E       ℰ_H
+                0.0%  1.132e-23 1.132e-23
+
+    Calculating junction energy participation ration (EPR)
+	method=`line_voltage`. First estimates:
+	junction        EPR p_0j   sign s_0j    (p_capacitive)
+		Energy fraction (Lj over Lj&Cj)= 98.88%
+	jj3             1.25305e-05  (+)        1.42027e-07
+		(U_tot_cap-U_tot_ind)/mean=0.00%
+Calculating Qdielectric_main for mode 0 (0/4)
+WARNING:py.warnings:c:\Users\giann\anaconda3\envs\qiskit-metal\Lib\site-packages\pyEPR\core_distributed_analysis.py:1307: FutureWarning: The series.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  sol = sol.append(self.get_Qdielectric(
+
+p_dielectric_main_0 = 0.9159636953408917
+
+  Mode 1 at 5.10 GHz   [2/5]
+    Calculating ℰ_magnetic,ℰ_electric
+       (ℰ_E-ℰ_H)/ℰ_E       ℰ_E       ℰ_H
+              100.0%  3.278e-27 4.637e-32
+
+    Calculating junction energy participation ration (EPR)
+	method=`line_voltage`. First estimates:
+	junction        EPR p_1j   sign s_1j    (p_capacitive)
+		Energy fraction (Lj over Lj&Cj)= 97.99%
+	jj3             1.68817e-08  (+)        3.47013e-10
+		(U_tot_cap-U_tot_ind)/mean=100.00%
+WARNING: This simulation must not have converged well!!!                The difference in the total cap and ind energies is larger than 10%.                Proceed with caution.
+Calculating Qdielectric_main for mode 1 (1/4)
+WARNING:py.warnings:c:\Users\giann\anaconda3\envs\qiskit-metal\Lib\site-packages\pyEPR\core_distributed_analysis.py:1307: FutureWarning: The series.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  sol = sol.append(self.get_Qdielectric(
+
+p_dielectric_main_1 = 0.9208895828164521
+
+  Mode 2 at 5.11 GHz   [3/5]
+    Calculating ℰ_magnetic,ℰ_electric
+       (ℰ_E-ℰ_H)/ℰ_E       ℰ_E       ℰ_H
+              100.0%  1.774e-27 2.605e-32
+
+    Calculating junction energy participation ration (EPR)
+	method=`line_voltage`. First estimates:
+	junction        EPR p_2j   sign s_2j    (p_capacitive)
+		Energy fraction (Lj over Lj&Cj)= 97.98%
+	jj3             1.85232e-08  (+)        3.80969e-10
+		(U_tot_cap-U_tot_ind)/mean=100.00%
+WARNING: This simulation must not have converged well!!!                The difference in the total cap and ind energies is larger than 10%.                Proceed with caution.
+Calculating Qdielectric_main for mode 2 (2/4)
+WARNING:py.warnings:c:\Users\giann\anaconda3\envs\qiskit-metal\Lib\site-packages\pyEPR\core_distributed_analysis.py:1307: FutureWarning: The series.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  sol = sol.append(self.get_Qdielectric(
+
+p_dielectric_main_2 = 0.9209324914859166
+
+  Mode 3 at 5.47 GHz   [4/5]
+    Calculating ℰ_magnetic,ℰ_electric
+       (ℰ_E-ℰ_H)/ℰ_E       ℰ_E       ℰ_H
+               41.6%  1.221e-24 7.129e-25
+
+    Calculating junction energy participation ration (EPR)
+	method=`line_voltage`. First estimates:
+	junction        EPR p_3j   sign s_3j    (p_capacitive)
+		Energy fraction (Lj over Lj&Cj)= 97.69%
+	jj3             0.415789  (+)        0.00981566
+		(U_tot_cap-U_tot_ind)/mean=0.51%
+Calculating Qdielectric_main for mode 3 (3/4)
+WARNING:py.warnings:c:\Users\giann\anaconda3\envs\qiskit-metal\Lib\site-packages\pyEPR\core_distributed_analysis.py:1307: FutureWarning: The series.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  sol = sol.append(self.get_Qdielectric(
+
+p_dielectric_main_3 = 0.9190887607808412
+
+  Mode 4 at 5.64 GHz   [5/5]
+    Calculating ℰ_magnetic,ℰ_electric
+       (ℰ_E-ℰ_H)/ℰ_E       ℰ_E       ℰ_H
+               55.2%   6.56e-25 2.936e-25
+
+    Calculating junction energy participation ration (EPR)
+	method=`line_voltage`. First estimates:
+	junction        EPR p_4j   sign s_4j    (p_capacitive)
+		Energy fraction (Lj over Lj&Cj)= 97.55%
+	jj3             0.551951  (+)        0.013839
+		(U_tot_cap-U_tot_ind)/mean=0.71%
+Calculating Qdielectric_main for mode 4 (4/4)
+WARNING:py.warnings:c:\Users\giann\anaconda3\envs\qiskit-metal\Lib\site-packages\pyEPR\core_distributed_analysis.py:1307: FutureWarning: The series.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  sol = sol.append(self.get_Qdielectric(
+
+p_dielectric_main_4 = 0.9195630278359207
+WARNING 09:44PM [__init__]: <p>Error: <class 'IndexError'></p>
+ERROR 09:44PM [_get_participation_normalized]: WARNING: U_tot_cap-U_tot_ind / mean = 200.0% is > 15%.                     
+Is the simulation converged? Proceed with caution
+
+ANALYSIS DONE. Data saved to:
+
+C:\data-pyEPR\Project33\Q3_final_hfss\2026-07-15 21-42-59.npz
+
+
+	 Differences in variations:
+
+
+
+ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+Variation 0
+
+Starting the diagonalization
+Finished the diagonalization
+ERROR 01:15AM [_get_participation_normalized]: WARNING: U_tot_cap-U_tot_ind / mean = 200.0% is > 15%.                     
+Is the simulation converged? Proceed with caution
+WARNING:py.warnings:c:\Users\giann\anaconda3\envs\qiskit-metal\Lib\site-packages\pyEPR\core_quantum_analysis.py:712: FutureWarning: Support for multi-dimensional indexing (e.g. `obj[:, None]`) is deprecated and will be removed in a future version.  Convert to a numpy array before indexing instead.
+  result['Q_coupling'] = self.Qm_coupling[variation][self.Qm_coupling[variation].columns[junctions]][modes]#TODO change the columns to junctions
+
+WARNING:py.warnings:c:\Users\giann\anaconda3\envs\qiskit-metal\Lib\site-packages\pyEPR\core_quantum_analysis.py:717: FutureWarning: Support for multi-dimensional indexing (e.g. `obj[:, None]`) is deprecated and will be removed in a future version.  Convert to a numpy array before indexing instead.
+  result['Qs'] = self.Qs[variation][self.PM[variation].columns[junctions]][modes] #TODO change the columns to junctions
+
+Pm_norm=
+modes
+0    1.094227e+00
+1    5.923408e+07
+2    5.398473e+07
+3    1.017436e+00
+4    1.020255e+00
+dtype: float64
+
+Pm_norm idx =
+     jj3
+0  False
+1  False
+2  False
+3   True
+4   True
+*** P (participation matrix, not normlz.)
+            jj3
+0  1.253054e-05
+1  1.688170e-08
+2  1.852321e-08
+3  4.117476e-01
+4  5.444166e-01
+
+*** S (sign-bit matrix)
+   s_jj3
+0      1
+1      1
+2     -1
+3      1
+4      1
+*** P (participation matrix, normalized.)
+   1.3e-05
+   1.7e-08
+   1.9e-08
+      0.42
+      0.56
+
+*** Chi matrix O1 PT (MHz)
+    Diag is anharmonicity, off diag is full cross-Kerr.
+  1.72e-08 6.25e-11 6.86e-11  0.00166  0.00227
+  6.25e-11 5.67e-14 1.25e-13 3.02e-06 4.12e-06
+  6.86e-11 1.25e-13 6.83e-14 3.31e-06 4.53e-06
+   0.00166 3.02e-06 3.31e-06     40.1      110
+   0.00227 4.12e-06 4.53e-06      110     74.9
+
+*** Chi matrix ND (MHz) 
+  3.72e-08 4.31e-10 3.97e-10  0.00621 0.000781
+  4.31e-10-4.01e-11-1.35e-10-0.000305 1.02e-06
+  3.97e-10-1.35e-10-1.96e-10-0.000314 1.14e-06
+   0.00621-0.000305-0.000314     -240      487
+  0.000781 1.02e-06 1.14e-06      487     1.79
+
+*** Frequencies O1 PT (MHz)
+0    3790.165419
+1    5104.131150
+2    5105.565968
+3    5374.956108
+4    5507.394106
+dtype: float64
+
+*** Frequencies ND (MHz)
+0    3790.165013
+1    5104.131146
+2    5105.565964
+3    5303.130976
+4    5569.327906
+dtype: float64
+
+*** Q_coupling
+Empty DataFrame
+Columns: []
+Index: [0, 1, 2, 3, 4]
+WARNING:py.warnings:c:\Users\giann\anaconda3\envs\qiskit-metal\Lib\site-packages\pyEPR\core_quantum_analysis.py:962: UserWarning: Tight layout not applied. tight_layout cannot make axes height small enough to accommodate all axes decorations.
+  fig.tight_layout()
+
+
+  Lj=9.9930 nH -> f01=5569.3 MHz  alpha=75 MHz  P=0.54 max_cross_kerr=109.7  err=-369.3 MHz  OFF-TARGET  NOT CLEAN  HYBRIDIZED
+     STOP: unclean/hybridized — not iterating on unreliable f01
+
+=== Final results ===
+Qubit    Lj (nH)  f01 (GHz) |alpha| (MHz)  status
+Q1           nan        nan           nan  CHECK
+Q2           nan        nan           nan  CHECK
+Q3        9.9930     5.5693          74.9  HYBRID
+Q4           nan        nan           nan  CHECK
